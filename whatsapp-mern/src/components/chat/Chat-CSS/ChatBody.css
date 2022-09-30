@@ -1,0 +1,40 @@
+.chat_body{
+    background-image: url('https://i.pinimg.com/originals/97/c0/07/97c00759d90d786d9b6096d274ad3e07.png');
+
+flex: 1;
+background-repeat: repeat;
+background-position: center;
+padding: 30px;
+overflow: scroll;
+overflow-x: hidden;
+
+}
+
+
+.chat_message{
+    position: relative;
+    font-size: 16px;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.chat_receiver{
+    margin-left: auto;
+    background-color: #dcf8c6;
+}
+
+.chat_name{
+    position: absolute;
+    top: -20px;
+    font-weight: 800;
+    font-size:  small;
+    color: teal;
+}
+
+.chat_timestamp{
+    margin-left: 10px;
+    font-size: xx-small;
+}
